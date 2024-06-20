@@ -32,8 +32,21 @@ tk.Label(
     bg=bg_color,
     fg="#FFFFFF",
     font=("TkMenuFont", 14,),
-    pady=0
+    pady=20
     ).pack()
+
+
+tk.Button(
+    frame1,
+    text="Kanombe",
+    font=("TkHeadingFont", 12),
+    bg="white",
+    fg="red",
+    padx=20,
+    pady=20,
+    border="2px"
+).pack()
+
 
 # Run the app
 root.mainloop()
