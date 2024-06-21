@@ -1,0 +1,54 @@
+body{
+    background-color: #17202A;
+}
+
+.app-logo{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.app-title-div{
+    margin: auto;
+    text-align: center;
+}
+
+.app-title-div p{
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.bus-route-div{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bus-route-div p{
+    font-size: 16px;
+    color:orange;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bus-stops-div{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bus-stop-div {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.bus-stop-div p{
+    color: yellow;
+    font-weight: bold;
+    font-family: sans-serif;
+}
