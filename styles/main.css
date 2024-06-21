@@ -1,5 +1,6 @@
 body{
     background-color: #17202A;
+    padding-top: 20px;
 }
 
 .app-logo{
@@ -21,24 +22,12 @@ body{
     font-family: sans-serif;
 }
 
-.bus-route-div{
-    margin: auto;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.bus-route-div p{
-    font-size: 16px;
-    color:orange;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-decoration: underline;
-}
 
 .bus-stops-div{
     margin: auto;
     text-align: center;
     margin-top: 30px;
+    padding-top: 40px;
 }
 
 .bus-stop-div {
@@ -48,7 +37,7 @@ body{
 }
 
 .bus-stop-div p{
-    color: yellow;
+    color: #FA8072;
     font-weight: bold;
     font-family: sans-serif;
 }
