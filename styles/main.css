@@ -1,10 +1,10 @@
 body{
     background-color: #17202A;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .app-logo{
-    width: 100px;
+    width: 60px;
     height: auto;
     display: block;
     margin: auto;
@@ -18,10 +18,16 @@ body{
 .app-title-div p{
     font-size: 28px;
     color: white;
-    font-weight: bold;
     font-family: sans-serif;
 }
 
+.bus-route-div{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: underline
+}
 
 .bus-stops-div{
     margin: auto;
@@ -37,7 +43,44 @@ body{
 }
 
 .bus-stop-div p{
-    color: #FA8072;
-    font-weight: bold;
+    color: white;
+    /* font-weight: bold; */
     font-family: sans-serif;
 }
+
+/* Animating the current bus stop div */
+
+        /* Define a CSS animation named "blink" */ 
+        @keyframes blink { 
+  
+            0%, 
+            100% { 
+                background-color: lawngreen; 
+                /* First color */ 
+            } 
+  
+            50% { 
+                background-color: #17202A; 
+                /* Second color */ 
+            } 
+        } 
+  
+        /* Apply the "blink" animation to  
+        elements with class "active-div" */ 
+        .active-div { 
+            animation: blink 1.5s linear infinite; 
+            /* The animation will run indefinitely */ 
+        }
+
+
+        .footer { 
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+            z-index: 10;
+            width: 100%;
+            color: #ffffff;
+            text-align: center;
+            font-family: Helvetica;
+            font-size: small;
+        }
